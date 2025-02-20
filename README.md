@@ -2,6 +2,12 @@
 
 This repository contains the codebase for the Big Data Final Project, focusing on processing and analyzing OpenAlex academic data enriched with war-related information.
 
+## Abstract
+Armed conflicts have profound effects on academic mobility, disrupting research environments and compelling scholars to migrate. This study examines how wars influence research output at both the country and institutional levels, utilizing large-scale datasets from OpenAlex and Wikipedia. Through statistical analysis, data visualization, and network modeling, findings reveal that while country-level research output remains largely stable during conflicts, institutional-level trends exhibit more nuanced disruptions. Certain institutions experience increased research activity due to shifts in research priorities or funding, while others face declines, reflecting disruptions in civilian research. Network analysis using NetworkX and Gephi highlights changes in institutional collaborations, with wartime periods leading to more centralized research structures. These insights emphasize the need for policies that support displaced academics and ensure research continuity in conflict-affected regions.
+
+
+Findings show that while country-level analysis did not reveal significant disruptions in overall research output during war periods, institutional-level trends showed more nuanced patterns. Certain institutions experienced fluctuations in authorship counts, with some seeing increased activity during wartime, likely due to shifts in research priorities or funding, while others exhibited declines, suggesting disruptions in civilian or non-military research efforts.
+
 ## Project Structure
 ```
 code/
@@ -22,7 +28,7 @@ code/
 │   └── additional_preprocessing/ # Additional preprocessing scripts
 ├── sbatch_files/                # Batch processing scripts
 ├── params.py                    # Parameter configuration
-├── const.py                     # Const configuration   
+├── const.py                     # Const configuration
 └── README.md                    # Documentation
 ```
 
@@ -38,3 +44,15 @@ code/
 - `openAlex_data_api_sql.ipynb`: Fetches and processes OpenAlex data via API and SQL.
 - `analyzed_data_by_country.ipynb`: Analyzes OpenAlex data by country.
 - `analyzed_data_by_institution.ipynb`: Analyzes OpenAlex data by institution.
+
+## Visualization
+
+### Institutional Research Network Comparison
+Below is a visual comparison of institutional research network structures in 1993 (no war) and 2003 (war period) using modularity analysis.
+
+![Institutional Research Network Comparison](/home/reutme/Big_data/final_project/data/inst_graph.png)
+
+**Figure:** Comparison of institutional research network structures in 1993 (no war) and 2003 (war period) using modularity analysis. 
+- **Top row:** Network visualizations show institutional collaborations, where node colors represent modularity classes, node sizes reflect delta-degree values (difference between in-degree and out-degree), and the black square represents the Physico-Technical Institute node.
+
+This visualization demonstrates how armed conflict affects institutional collaboration structures, leading to more centralized networks during wartime.
