@@ -16,7 +16,8 @@ Below is a visual comparison of institutional research network structures in 199
 ![Institutional Research Network Comparison](/image/inst_graph.png)
 
 **Figure:** Comparison of institutional research network structures in 1993 (no war) and 2003 (war period) using modularity analysis. 
-- **Top row:** Network visualizations show institutional collaborations, where node colors represent modularity classes, node sizes reflect delta-degree values (difference between in-degree and out-degree), and the black square represents the Physico-Technical Institute node. (Bottom row) Modularity class distributions for each year. In 1993, the network exhibits multiple distinct modularity classes, indicating a decentralized collaboration structure. In 2003, the network becomes more centralized, with the Physico-Technical Institute absorbing a significant portion of institutions, reducing the number of prominent modularity classes. 
+- **Top row:** Network visualizations show institutional collaborations, where node colors represent modularity classes, node sizes reflect delta-degree values (difference between in-degree and out-degree), and the black square represents the Physico-Technical Institute node.
+- **Bottom row:** Modularity class distributions for each year. In 1993, the network exhibits multiple distinct modularity classes, indicating a decentralized collaboration structure. In 2003, the network becomes more centralized, with the Physico-Technical Institute absorbing a significant portion of institutions, reducing the number of prominent modularity classes. 
 
 This visualization demonstrates how armed conflict affects institutional collaboration structures, leading to more centralized networks during wartime.
 
