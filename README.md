@@ -26,23 +26,28 @@ This visualization demonstrates how armed conflict affects institutional collabo
 ```
 code/
 │
-├── .git/                        # Git repository metadata
+├── _pycache_/                   # Compiled Python files
 ├── analyzed_data/               # Analysis notebooks and frames
 │   ├── analyzed_data_by_country.ipynb
 │   ├── analyzed_data_by_institution.ipynb
-│   ├── frames/                  # Generated frames
-│   └── additional_analysis/     # Additional analysis scripts
-├── data mining/                 # Data processing scripts
+├── data_mining/                 # Data processing scripts
+│   ├── __pycache__/
 │   ├── create_df_from_sql.py
+│   ├── create_df_relation_table.py
+│   ├── create_df_single_tables.py
 │   ├── merge_all_dfs.py
 │   ├── openAlex_data_api_sql.ipynb
+│   ├── openalex_merged_data_chunks.py
 │   └── wiki_war_data.ipynb
 ├── preprocess_data/             # Data preprocessing scripts
-│   ├── preprocess_data.ipynb    # Preprocessing notebook
-│   └── additional_preprocessing/ # Additional preprocessing scripts
+│   └── preprocess_data.ipynb
 ├── sbatch_files/                # Batch processing scripts
+│   ├── sbatch_create_df_relation_table_array
+│   ├── sbatch_create_df_single_table_array
+│   └── sbatch_merge_all_dfs
+├── .gitignore                   # Git ignore file
+├── const.py                     # Constant configuration
 ├── params.py                    # Parameter configuration
-├── const.py                     # Const configuration
 └── README.md                    # Documentation
 ```
 
