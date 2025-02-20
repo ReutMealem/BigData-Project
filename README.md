@@ -50,7 +50,7 @@ code/
 ### Institutional Research Network Comparison
 Below is a visual comparison of institutional research network structures in 1993 (no war) and 2003 (war period) using modularity analysis.
 
-![Institutional Research Network Comparison](/home/reutme/Big_data/final_project/data/inst_graph.png)
+![Institutional Research Network Comparison](/image/inst_graph.png)
 
 **Figure:** Comparison of institutional research network structures in 1993 (no war) and 2003 (war period) using modularity analysis. 
 - **Top row:** Network visualizations show institutional collaborations, where node colors represent modularity classes, node sizes reflect delta-degree values (difference between in-degree and out-degree), and the black square represents the Physico-Technical Institute node.
