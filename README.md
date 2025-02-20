@@ -26,11 +26,10 @@ This visualization demonstrates how armed conflict affects institutional collabo
 ```
 code/
 │
-├── _pycache_/                   # Compiled Python files
 ├── analyzed_data/               # Analysis notebooks and frames
 │   ├── analyzed_data_by_country.ipynb
 │   ├── analyzed_data_by_institution.ipynb
-├── data_mining/                 # Data processing scripts
+├── data_mining/                 # Data collecting scripts
 │   ├── __pycache__/
 │   ├── create_df_from_sql.py
 │   ├── create_df_relation_table.py
@@ -41,7 +40,7 @@ code/
 │   └── wiki_war_data.ipynb
 ├── preprocess_data/             # Data preprocessing scripts
 │   └── preprocess_data.ipynb
-├── sbatch_files/                # Batch processing scripts
+├── sbatch_files/                # Sbatch processing scripts
 │   ├── sbatch_create_df_relation_table_array
 │   ├── sbatch_create_df_single_table_array
 │   └── sbatch_merge_all_dfs
