@@ -8,6 +8,19 @@ Armed conflicts have profound effects on academic mobility, disrupting research 
 
 Findings show that while country-level analysis did not reveal significant disruptions in overall research output during war periods, institutional-level trends showed more nuanced patterns. Certain institutions experienced fluctuations in authorship counts, with some seeing increased activity during wartime, likely due to shifts in research priorities or funding, while others exhibited declines, suggesting disruptions in civilian or non-military research efforts.
 
+## Visualization
+
+### Institutional Research Network Comparison
+Below is a visual comparison of institutional research network structures in 1993 (no war) and 2003 (war period) using modularity analysis.
+
+![Institutional Research Network Comparison](/image/inst_graph.png)
+
+**Figure:** Comparison of institutional research network structures in 1993 (no war) and 2003 (war period) using modularity analysis. 
+- **Top row:** Network visualizations show institutional collaborations, where node colors represent modularity classes, node sizes reflect delta-degree values (difference between in-degree and out-degree), and the black square represents the Physico-Technical Institute node. (Bottom row) Modularity class distributions for each year. In 1993, the network exhibits multiple distinct modularity classes, indicating a decentralized collaboration structure. In 2003, the network becomes more centralized, with the Physico-Technical Institute absorbing a significant portion of institutions, reducing the number of prominent modularity classes. 
+
+This visualization demonstrates how armed conflict affects institutional collaboration structures, leading to more centralized networks during wartime.
+
+
 ## Project Structure
 ```
 code/
@@ -44,15 +57,3 @@ code/
 - `openAlex_data_api_sql.ipynb`: Fetches and processes OpenAlex data via API and SQL.
 - `analyzed_data_by_country.ipynb`: Analyzes OpenAlex data by country.
 - `analyzed_data_by_institution.ipynb`: Analyzes OpenAlex data by institution.
-
-## Visualization
-
-### Institutional Research Network Comparison
-Below is a visual comparison of institutional research network structures in 1993 (no war) and 2003 (war period) using modularity analysis.
-
-![Institutional Research Network Comparison](/image/inst_graph.png)
-
-**Figure:** Comparison of institutional research network structures in 1993 (no war) and 2003 (war period) using modularity analysis. 
-- **Top row:** Network visualizations show institutional collaborations, where node colors represent modularity classes, node sizes reflect delta-degree values (difference between in-degree and out-degree), and the black square represents the Physico-Technical Institute node. (Bottom row) Modularity class distributions for each year. In 1993, the network exhibits multiple distinct modularity classes, indicating a decentralized collaboration structure. In 2003, the network becomes more centralized, with the Physico-Technical Institute absorbing a significant portion of institutions, reducing the number of prominent modularity classes. 
-
-This visualization demonstrates how armed conflict affects institutional collaboration structures, leading to more centralized networks during wartime.
